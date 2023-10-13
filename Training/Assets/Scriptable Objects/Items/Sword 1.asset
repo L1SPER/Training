@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49c0a5ee877f61246a392e08b564f4d9, type: 3}
   m_Name: Sword 1
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2969319254248073778, guid: 62aafe3c913b32e4c9960b78256471e2, type: 3}
+  id: 0
+  uiDisplay: {fileID: -6447425667752118579, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
+    type: 3}
   type: 1
   description: A sword for slashing and stabbing
-  attackBonus: 10
-  defenseBonus: 0
+  buffs:
+  - attributes: 2
+    value: 0
+    min: 1
+    max: 20

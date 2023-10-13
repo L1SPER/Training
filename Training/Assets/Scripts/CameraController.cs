@@ -17,7 +17,8 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Envanterdeki eþyalarý drag gibi iþlemler yapýlmadýðý için devre dýþý býrakýldý.
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame

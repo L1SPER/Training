@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class EquipmentObject : ItemObject
 {
-    public float attackBonus;
-    public float defenseBonus;
-
     public void Awake()
     {
         type=ItemType.Equipment;
