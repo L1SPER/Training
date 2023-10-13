@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69744de3d1f3e144f89d61878e32aacc, type: 3}
   m_Name: Box
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7929454863512213776, guid: e86069ec484b2884faa5cfc1f22764b8, type: 3}
+  id: 0
+  uiDisplay: {fileID: -5855690042751787076, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
+    type: 3}
   type: 2
   description: 

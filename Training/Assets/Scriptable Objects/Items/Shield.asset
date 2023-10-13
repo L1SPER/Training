@@ -12,8 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49c0a5ee877f61246a392e08b564f4d9, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2969319254248073778, guid: 7181a27f4ace0f94dba55b4963e01e8b, type: 3}
+  id: 0
+  uiDisplay: {fileID: -3301332275463831685, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
+    type: 3}
   type: 1
   description: A shield for defending
-  attackBonus: 0
-  defenseBonus: 10
+  buffs:
+  - attributes: 0
+    value: 0
+    min: 5
+    max: 12
+  - attributes: 3
+    value: 0
+    min: 4
+    max: 20

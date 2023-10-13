@@ -12,24 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b001239bb1c9a2247b3b6b7b75e557e7, type: 3}
   m_Name: Player Inventory
   m_EditorClassIdentifier: 
+  savePath: /inventory.Save
+  database: {fileID: 11400000, guid: 0b2cab1b5332f434eba894b914ab6053, type: 2}
   Container:
-  - item: {fileID: 11400000, guid: 49fa867bb42b1cb45add4b6d265ed74c, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 608bd8541a91f894d849db40a78eef4f, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 0f1e2bcfe5eda8e4ba653bb574f8c151, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 21779c4caa831a7439170dc8838748b1, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 4dae01659e57bd943b2ea356018e44ab, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 0cf0f21d5cea7c44b833677c6da5de0a, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 0cf0f21d5cea7c44b833677c6da5de0a, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 0cf0f21d5cea7c44b833677c6da5de0a, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 0cf0f21d5cea7c44b833677c6da5de0a, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 0cf0f21d5cea7c44b833677c6da5de0a, type: 2}
-    amount: 0
+    Items:
+    - ID: 0
+      item:
+        Name: 
+        Id: 0
+        buffs: []
+      amount: 0
