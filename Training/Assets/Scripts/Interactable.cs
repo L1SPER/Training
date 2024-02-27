@@ -2,9 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.Burst.CompilerServices;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class Interactable : MonoBehaviour
 {
