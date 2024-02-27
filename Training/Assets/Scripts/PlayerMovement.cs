@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //public MouseData mouseItem = new MouseData();
+
+
     public static PlayerMovement instance;
     private void Awake()
     {
@@ -32,16 +35,19 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded;
 
     public InventoryObject inventory;
+    public InventoryObject equipment;
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space)) 
         {
             inventory.Save();
+            equipment.Save();
         }
         if(Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             inventory.Load();
+            equipment.Load();
         }
         Movement();
     }
@@ -73,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        inventory.Container.Items= new InventorySlot[20];
+        inventory.Container.Clear();
+        equipment.Container.Clear();
     }
 }

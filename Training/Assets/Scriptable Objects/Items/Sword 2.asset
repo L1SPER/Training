@@ -9,16 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49c0a5ee877f61246a392e08b564f4d9, type: 3}
+  m_Script: {fileID: 11500000, guid: f8265b43158816d48840b69c2a4757f2, type: 3}
   m_Name: Sword 2
   m_EditorClassIdentifier: 
-  id: 0
-  uiDisplay: {fileID: 3495713834309950518, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
+  uiDisplay: {fileID: -6763620941933801878, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
     type: 3}
-  type: 1
-  description: A sword for slashing and stabbing
-  buffs:
-  - attributes: 3
-    value: 0
-    min: 5
-    max: 50
+  stackable: 0
+  type: 2
+  description: 
+  data:
+    Name: 
+    Id: 13
+    buffs: []
